@@ -10,10 +10,10 @@ import json
 import boto3
 
 # AWS Credentials (you can also configure these using AWS CLI or environment variables)
-AWS_ACCESS_KEY_ID = ''
-AWS_SECRET_ACCESS_KEY = ''
-BUCKET_NAME = ''
-topic = ''
+AWS_ACCESS_KEY_ID = 'AKIASWMFEERTPHCGRI2Z'
+AWS_SECRET_ACCESS_KEY = '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'
+BUCKET_NAME = 'cloud-workshop-test-bucket'
+topic = 'workshop/publish'
 LOCAL_DOWNLOAD_PATH = os.getcwd() + '/s3_data'
 DATA_PATH = LOCAL_DOWNLOAD_PATH + '/' + topic
 print(LOCAL_DOWNLOAD_PATH)
